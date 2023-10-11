@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Convertisseur Binaire <-> Décimal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            margin: 0;
+        }
+
+        div {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        p {
+            font-weight: bold;
+        }
+    </style>
+    <script type="text/javascript">
+        // Your JavaScript code remains unchanged
+    </script>
+</head>
+<body>
+    <h1>Convertisseur Binaire <-> Décimal</h1>
+    <div>
+        <label for="binaire">Binaire:</label>
+        <input type="text" id="binaire" onkeyup="binaireVersDecimal()">
+        <p id="resultat-decimal">Décimal : </p>
+    </div>
+    <div>
+        <label for="decimal">Décimal:</label>
+        <input type="text" id="decimal" onkeyup="decimalVersBinaire()">
+        <p id="resultat-binaire">Binaire : </p>
+    </div>
+</body>
+</html>
