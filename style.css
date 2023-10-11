@@ -2,7 +2,7 @@
    
         body {
             font-family: Arial, sans-serif;
-            background-color: #b0e8e6;
+            background-color: #455073;
             text-align: center;
             margin: 0;
             padding: 0;
@@ -18,7 +18,7 @@
         div {
             margin: 20px;
             padding: 20px;
-            background-color: #d4fafc;
+            background-color: #c0904d;
             border-radius: 5px;
             box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
         }
