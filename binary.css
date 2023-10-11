@@ -1,7 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Convertisseur Binaire <-> Décimal</title>
+
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -42,21 +39,3 @@
             font-weight: bold;
         }
     </style>
-    <script type="text/javascript">
-        // Your JavaScript code remains unchanged
-    </script>
-</head>
-<body>
-    <h1>Convertisseur Binaire <-> Décimal</h1>
-    <div>
-        <label for="binaire">Binaire:</label>
-        <input type="text" id="binaire" onkeyup="binaireVersDecimal()">
-        <p id="resultat-decimal">Décimal : </p>
-    </div>
-    <div>
-        <label for="decimal">Décimal:</label>
-        <input type="text" id="decimal" onkeyup="decimalVersBinaire()">
-        <p id="resultat-binaire">Binaire : </p>
-    </div>
-</body>
-</html>
